@@ -621,7 +621,7 @@ td.highlight {
       color: black;
     }
     .container12{
-      padding: 30px 10px;
+      padding: 30px 20px;
       margin: 0;
     }
     .container12 h1{
@@ -718,12 +718,12 @@ grid-template-columns: repeat(2,1fr);
 text-align: center;
 }
 .allLoan{
-padding: 10px 10px;
+padding: 10px 20px;
 margin-bottom: 30px;
-line-height: 1.4;
+line-height: 1.5;
 }
 .container6{
-padding: 50px 10px;
+padding: 50px 20px;
 background-color: #003868;
 }
 .footer{
