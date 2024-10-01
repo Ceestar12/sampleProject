@@ -1,0 +1,3 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="icon" width="16" height="14"><defs><symbol id="svg-arrow-right" viewBox="0 0 18 16"><title>Arrow Right</title><desc>Icon of an arrow pointing to the right</desc><path d="M1.41 9.36h10.85l-3.8 3.8a1.49 1.49 0 0 0 0 2.12c.59.59 1.54.59 2.12 0L18 7.86 10.58.44a1.49 1.49 0 0 0-2.12 0 1.49 1.49 0 0 0 0 2.12l3.8 3.8H1.41C.63 6.36 0 6.99 0 7.77v.18c0 .78.63 1.41 1.41 1.41z"></path></symbol></defs>
+							<use xlink:href="#svg-arrow-right" fill="#FFFFFF"></use>
+						</svg>
