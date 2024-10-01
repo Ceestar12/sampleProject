@@ -624,6 +624,9 @@ td.highlight {
       padding: 30px 10px;
       margin: 0;
     }
+    .container12 h1{
+      font-size: 1.5rem;
+    }
     .card-container {
       display: grid;
       padding-top: 20px;
@@ -633,7 +636,7 @@ td.highlight {
       background-color: #004A8F;
       color: white;
       padding: 30px 20px;
-      width: 180px;
+      width: 165px;
       margin: 10px;
       text-align: center;
     }
