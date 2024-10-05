@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  .carousel-container {
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .carousel-item {
+    min-width: 100%;
+    position: relative;
+  }
+  
+  .carousel-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-text {
+    position: absolute;
+    top: 30%;
+    left: 0;
+    /* transform: translate(-50%, -50%); */
+    text-align: start;
+    color: white;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding: 20px;
+    width: 41%;
+  }
+  .carousel-text h2{
+    font-size: 2.9rem;
+    font-weight: bolder;
+  }
+  .carousel-text p{
+    font-size: 1.5rem;
+    padding: 20px 0;
+    line-height: 1.5;
+  }
+  
+  .cta-btn {
+    background-color: #ffc425;
+    color: #003868;
+    border: none;
+    padding: 13px 30px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+  
+  .cta-btn:hover {
+    background-color: #c7960e;
+  }
+  
+  /* Prev and Next button styling */
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .prev {
+    left: 0;
+  }
+  
+  .next {
+    right: 0;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Mobile styles */
+  @media (max-width: 768px) {
+    .carousel-text {
+      position: relative;
+      transform: none;
+      top: auto;
+      left: auto;
+      background-color: transparent;
+      color: black;
+      width: 100%;
+      padding: 10px;
+    }
+  
+    .carousel-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .carousel-text{
+        text-align: center;
+        padding-top: 20px;
+        background-color: #E9ECEE;
+    }
+    .carousel-text h2{
+        font-size: 1.9rem;
+        font-weight: bolder;
+        color: #003868;
+    }
+      .carousel-text p{
+        font-size: 1rem;
+        padding: 20px 0;
+        line-height: 1.5;
+    }
+    .prev {
+        left: 0;
+    }
+      
+      .next {
+        right: 0;
+    }
+     /* Prev and Next button styling */
+  .prev, .next {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  }
+  
